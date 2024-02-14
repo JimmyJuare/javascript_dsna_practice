@@ -1,4 +1,9 @@
 class Solution {
+    /*
+    we want to compare each element from left to right and see if the elements dont match
+    in parity, and if they do match then we will return -1, ptherwise retun the number
+    that breaks the parity(parity is just whether a number is odd or even)
+    */
     parityPattern(nums) {
 
         for (let i = 0; i < nums.length; i++) {
